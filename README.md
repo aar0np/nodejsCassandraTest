@@ -12,23 +12,26 @@ Helping someone on StackOverflow with Nodejs driver
         date DATE);
 ```
 
-3. Install Nodejs Cassandra driver
+3. Install Nodejs Cassandra driver:
 ```bash
 npm install cassandra-driver
 ```
 
-4. Clone this repo
+4. Clone this repo:
 ```bash
 git clone git@github.com:aar0np/nodejsCassandraTest.git
 ```
 
-5. `cd` into the `nodejsCassandraTest` directory, and run:
+5. `cd` into the `nodejsCassandraTest` directory, andb uild w/ npm:
+```npm i```
+
+6. Run:
 ```bash
 cd nodejsCassandraTest
 node app.js
 ```
 
-6. Verify table contents:
+7. Verify table contents:
 ```SQL
 SELECT * FROm stackoverflow.user_track;
 

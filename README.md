@@ -27,7 +27,6 @@ git clone git@github.com:aar0np/nodejsCassandraTest.git
 
 6. Run:
 ```bash
-cd nodejsCassandraTest
 node app.js
 ```
 
